@@ -19,6 +19,16 @@
 - **留言回复**：用户提交问题，Web 管理端回复，移动端按留言 ID 查询状态；
 - **双端支持**：Vue3 Web 端（上传 / 结果 / 知识库 / 详情 / 咨询 / 留言管理）与 uni-app 移动端（拍照、相册、H5 / Android）。
 
+## 界面预览
+
+**Web 端**（首页识别 / 识别结果 / 病害知识库 / 专家咨询）
+
+![Web 端界面](docs/assets/demo/demo_web.png)
+
+**移动端**（识别 / 结果 / 知识库 / 详情 / 咨询 / 留言）
+
+![移动端界面](docs/assets/demo/demo_mobile.png)
+
 ## 系统架构
 
 ```mermaid
