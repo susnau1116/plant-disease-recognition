@@ -1,0 +1,76 @@
+{
+  "crop": "樱桃",
+  "crop_en": "Cherry",
+  "diseases": [
+    {
+      "class_name": "Cherry_(including_sour)___healthy",
+      "name_cn": "樱桃健康叶片",
+      "name_en": "Cherry healthy",
+      "healthy": true,
+      "symptoms": "叶片深绿有光泽、叶缘锯齿完整，无霉层与病斑；新梢生长正常。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "合理修剪保持通风透光；增施有机肥、避免偏氮；雨季排水；花后至采收期注意补充钙硼",
+          "precautions": "修剪伤口及时保护，防止流胶与侵染",
+          "expected_effect": "树势健壮，预防白粉病、褐腐病等发生",
+          "effect_time": "持续管理",
+          "judgement": "叶片平整浓绿、无霉层与病斑",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    },
+    {
+      "class_name": "Cherry_(including_sour)___Powdery_mildew",
+      "name_cn": "樱桃白粉病",
+      "name_en": "Cherry powdery mildew",
+      "healthy": false,
+      "symptoms": "叶片表面初现白色小粉斑，逐渐扩大连片形成白色粉状霉层；叶片皱缩、卷曲，新梢生长受阻，严重时叶片干枯脱落。",
+      "occurrence": "温暖（20~25℃）、干燥与通风不良的环境易发；温室或密植园发病重；病菌以菌丝在病芽、病梢越冬。",
+      "transmission": "以气流传播分生孢子，也可经雨水飞溅短距离传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "戊唑醇",
+          "formulation": "43% 悬浮剂",
+          "dosage": "每亩 15~20 mL，兑水 45~60 kg",
+          "usage": "发病初期喷施，间隔 10~14 天，连喷 2~3 次，重点喷施叶片正反面",
+          "precautions": "采收前 14 天停用；高温时段避免施药",
+          "expected_effect": "白色霉层变薄消退，新叶无粉状物，叶片恢复平展",
+          "effect_time": "5~7 天",
+          "judgement": "7~10 天后新叶无白粉层，叶片不再卷曲",
+          "fallback": "改用枯草芽孢杆菌或硫制剂轮换补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "修剪通风与清除病梢",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "及时剪除病梢、病叶并销毁；疏除过密枝条，改善园内通风透光",
+          "precautions": "剪除物集中处理，不可留在园内",
+          "expected_effect": "降低湿度与菌源，抑制再侵染",
+          "effect_time": "3~5 天",
+          "judgement": "园内白粉层减少，新梢生长恢复",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培调控",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "平衡施肥，避免偏施氮肥；合理灌水避免干湿剧烈交替；选用抗病品种",
+          "precautions": "—",
+          "expected_effect": "植株生长健壮，发病减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "新梢白粉病发生率下降",
+          "fallback": "结合农药与修剪措施"
+        }
+      ]
+    }
+  ]
+}

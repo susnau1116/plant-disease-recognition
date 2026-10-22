@@ -1,0 +1,53 @@
+{
+  "crop": "橙子",
+  "crop_en": "Orange",
+  "diseases": [
+    {
+      "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+      "name_cn": "柑橘黄龙病（柑橘绿化病）",
+      "name_en": "Huanglongbing (Citrus greening)",
+      "healthy": false,
+      "symptoms": "叶片呈斑驳状不对称黄化（黄绿相间），叶脉肿大、木栓化；新梢短弱黄化；果实小、畸形、着色不均（\"红鼻果\"），种子败育，味酸；树势逐年衰退乃至枯死。",
+      "occurrence": "由柑橘木虱传播，全年均可发生，春梢、秋梢抽发期木虱活跃时传播最快；带病苗木远距离调运是新区发病主因，目前无药剂可治愈病株。",
+      "transmission": "主要经柑橘木虱叮咬传播；带病苗木、接穗嫁接传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "噻虫嗪（防治木虱、切断传播）",
+          "formulation": "25% 水分散粒剂",
+          "dosage": "每亩 8~12 g，兑水 45~60 kg",
+          "usage": "春梢、夏梢、秋梢抽发期各喷 1~2 次防治木虱，间隔 7~10 天；统一连片施药",
+          "precautions": "药剂不能治愈病株，仅用于防虫控病；采收前 14 天停用；与吡虫啉等轮换",
+          "expected_effect": "木虱虫口大幅下降，新发病株速度减缓",
+          "effect_time": "7~14 天",
+          "judgement": "新梢期蚜虱类害虫密度明显下降，新区病株扩展减缓",
+          "fallback": "补喷吡虫啉或螺虫乙酯，加强监测"
+        },
+        {
+          "type": "物理防治",
+          "name": "挖除病株与苗木检疫",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "发现病株立即整株连根挖除并销毁；使用无病苗木建园；严禁从疫区调运苗木",
+          "precautions": "挖除前先喷药杀灭病株上木虱，防止带毒迁移",
+          "expected_effect": "清除传染源，保护健康植株",
+          "effect_time": "立即见效",
+          "judgement": "园区病株率不再上升",
+          "fallback": "发病严重的果园整体更新，种植无病容器苗"
+        },
+        {
+          "type": "农业防治",
+          "name": "隔离带与树势管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "园区周围种植防风林隔离木虱；加强水肥管理增强树势；集中放梢、统一用药",
+          "precautions": "避免与九里香等木虱寄主混栽",
+          "expected_effect": "降低传播概率，延缓发病",
+          "effect_time": "长期管理",
+          "judgement": "园区新发病株率显著下降",
+          "fallback": "结合防虫与病株清除综合管理"
+        }
+      ]
+    }
+  ]
+}

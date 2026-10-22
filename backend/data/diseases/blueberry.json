@@ -1,0 +1,29 @@
+{
+  "crop": "蓝莓",
+  "crop_en": "Blueberry",
+  "diseases": [
+    {
+      "class_name": "Blueberry___healthy",
+      "name_cn": "蓝莓健康叶片",
+      "name_en": "Blueberry healthy",
+      "healthy": true,
+      "symptoms": "叶片呈正常深绿色，表面光滑无病斑；新梢抽生正常，叶片大小均匀。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "维持土壤 pH 4.5~5.5；采用滴灌保持适度湿润；每年修剪老枝、改善通风；覆盖松针或树皮抑制杂草",
+          "precautions": "忌大水漫灌与土壤积水；避免盐碱土栽植",
+          "expected_effect": "植株健壮，预防根腐、叶斑类病害",
+          "effect_time": "持续管理",
+          "judgement": "叶片浓绿、新梢生长旺盛，无萎蔫与斑点",
+          "fallback": "发现病叶及时摘除并核查土壤水分与 pH"
+        }
+      ]
+    }
+  ]
+}

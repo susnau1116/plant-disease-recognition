@@ -1,0 +1,53 @@
+{
+  "crop": "南瓜",
+  "crop_en": "Squash",
+  "diseases": [
+    {
+      "class_name": "Squash___Powdery_mildew",
+      "name_cn": "南瓜白粉病",
+      "name_en": "Squash powdery mildew",
+      "healthy": false,
+      "symptoms": "叶片正反面出现白色近圆形小粉斑，逐渐扩大连片形成白色粉状霉层；叶片变黄、干枯，严重时整叶枯死，植株早衰。",
+      "occurrence": "温暖干燥与干湿交替的天气易流行（20~25℃）；通风不良、光照不足、偏施氮肥时发病重；病菌在病残体上越冬。",
+      "transmission": "气流传播分生孢子，可远距离扩散。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "醚菌酯",
+          "formulation": "50% 水分散粒剂",
+          "dosage": "每亩 15~20 g，兑水 30~45 kg",
+          "usage": "发病初期喷施，间隔 7~10 天，连喷 2~3 次，重点喷施叶片正反面",
+          "precautions": "采收前 7 天停用；与戊唑醇轮换使用",
+          "expected_effect": "白色粉层变薄消退，叶片恢复绿色，新叶无粉状物",
+          "effect_time": "3~5 天",
+          "judgement": "5~7 天后新叶无白粉层，病叶不再扩展",
+          "fallback": "改用戊唑醇或枯草芽孢杆菌补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "摘除病叶与通风管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "及时摘除严重病叶；整枝打杈、疏除过密叶片，保持田间通风透光",
+          "precautions": "摘除物带出田外销毁",
+          "expected_effect": "降低田间湿度与菌源",
+          "effect_time": "3~5 天",
+          "judgement": "田间白粉层减少，病叶率下降",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培防病",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用抗病品种；合理密植；增施磷钾肥、控氮；合理灌溉避免忽干忽湿；与非瓜类轮作 2 年",
+          "precautions": "—",
+          "expected_effect": "植株健壮，发病减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "中后期白粉病发病率下降",
+          "fallback": "结合药剂防治"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "crop": "马铃薯",
+  "crop_en": "Potato",
+  "diseases": [
+    {
+      "class_name": "Potato___Early_blight",
+      "name_cn": "马铃薯早疫病",
+      "name_en": "Potato early blight",
+      "healthy": false,
+      "symptoms": "下部老叶初生褐色圆形小斑，逐渐扩大并出现同心轮纹（靶心状），病斑周围有黄色晕圈；严重时叶片自下而上枯黄脱落；块茎形成褐色凹陷病斑。",
+      "occurrence": "温暖潮湿（24~28℃）、干湿交替的天气易流行；植株衰弱、缺肥时发病重；病菌在病残体与带病块茎上越冬。",
+      "transmission": "风雨、气流传播分生孢子；带病种薯可传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "苯醚甲环唑",
+          "formulation": "10% 水分散粒剂",
+          "dosage": "每亩 30~40 g，兑水 30~45 kg",
+          "usage": "发病初期喷施，间隔 10 天，连喷 2~3 次；重点喷施中下部叶片",
+          "precautions": "采收前 14 天停用；与代森锰锌轮换使用",
+          "expected_effect": "病斑停止扩展，新叶无同心轮纹病斑",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后病斑边缘干枯，新叶无新斑",
+          "fallback": "改用嘧菌酯或代森锰锌补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "清除病残与病叶",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "及时摘除下部严重病叶；收获后清除病残体与病薯，集中处理；种薯切块时剔除病薯",
+          "precautions": "切刀用高锰酸钾溶液消毒",
+          "expected_effect": "减少菌源，延缓发病",
+          "effect_time": "当季见效",
+          "judgement": "田间下部病叶率明显下降",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培壮苗",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用无病种薯；与非茄科作物轮作 2~3 年；增施钾肥与有机肥；合理灌溉避免干旱胁迫；适期晚播",
+          "precautions": "避免植株生长后期脱肥早衰",
+          "expected_effect": "植株健壮，病害发生减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "中后期病株率与落叶程度下降",
+          "fallback": "结合药剂与轮作防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Potato___Late_blight",
+      "name_cn": "马铃薯晚疫病",
+      "name_en": "Potato late blight",
+      "healthy": false,
+      "symptoms": "叶尖叶缘初生水渍状暗绿色病斑，迅速扩大为褐色大斑，湿度大时叶背病健交界处产生白色霉层（孢子囊）；茎部黑褐色腐烂，薯块出现褐色至紫褐色水渍状腐烂，切开呈锈褐色。",
+      "occurrence": "低温高湿（18~22℃、多雨多雾、相对湿度 >95%）极易流行，传播速度极快，几天内可毁田；病菌在带病种薯、病残体与土壤中越冬。",
+      "transmission": "气流远距离传播孢子囊；雨水、灌溉水传播；带病种薯是主要初侵染源。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "烯酰吗啉",
+          "formulation": "50% 水分散粒剂",
+          "dosage": "每亩 30~40 g，兑水 30~45 kg",
+          "usage": "预防为主：封垄后或连阴雨前开始喷施，间隔 7~10 天，连喷 2~3 次；发现中心病株立即全田施药",
+          "precautions": "采收前 14 天停用；与霜脲·锰锌、氟啶胺等轮换，避免抗性",
+          "expected_effect": "病斑停止扩展，无新增水渍状病斑，叶背白霉消失",
+          "effect_time": "3~5 天",
+          "judgement": "5 天内无新增水渍状病斑，新叶正常生长",
+          "fallback": "改用氟啶胺或霜脲·锰锌补喷，并及时拔除病株"
+        },
+        {
+          "type": "物理防治",
+          "name": "拔除中心病株",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "发现中心病株立即连薯拔除，装袋带出田外深埋或销毁；病穴撒石灰",
+          "precautions": "拔除前先喷药，防止孢子扩散；操作后工具消毒",
+          "expected_effect": "阻断中心病株向全田扩散",
+          "effect_time": "立即见效",
+          "judgement": "周边植株无新增水渍状病斑",
+          "fallback": "全田施药保护，缩短喷药间隔"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培防病",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "使用无病脱毒种薯；轮作 2~3 年；合理培土防止薯块裸露；雨后排水；收获前割秧晒田",
+          "precautions": "避免低洼积水地块种植",
+          "expected_effect": "降低田间湿度与初侵染菌源",
+          "effect_time": "1 个生长季",
+          "judgement": "雨季发病速度与范围明显减缓",
+          "fallback": "结合药剂防治与品种更换"
+        }
+      ]
+    },
+    {
+      "class_name": "Potato___healthy",
+      "name_cn": "马铃薯健康叶片",
+      "name_en": "Potato healthy",
+      "healthy": true,
+      "symptoms": "叶片浓绿、复叶平展，无病斑与霉层，植株生长健壮。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用脱毒无病种薯；轮作倒茬；平衡施肥（增钾）；合理灌溉；及时培土",
+          "precautions": "避免低洼积水与偏施氮肥",
+          "expected_effect": "植株健壮，预防早疫病、晚疫病等发生",
+          "effect_time": "持续管理",
+          "judgement": "叶片浓绿无病斑，生长正常",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    }
+  ]
+}

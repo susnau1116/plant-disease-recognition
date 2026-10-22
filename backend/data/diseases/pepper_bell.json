@@ -1,0 +1,76 @@
+{
+  "crop": "辣椒",
+  "crop_en": "Pepper, bell",
+  "diseases": [
+    {
+      "class_name": "Pepper,_bell___Bacterial_spot",
+      "name_cn": "辣椒细菌性斑点病",
+      "name_en": "Pepper bacterial spot",
+      "healthy": false,
+      "symptoms": "叶片初生水渍状黄绿色小斑，后变暗褐色至黑褐色，病斑周围有黄色晕圈，中央易穿孔脱落；果实上形成褐色至黑色疮痂状凹陷斑，潮湿时有菌脓。",
+      "occurrence": "高温高湿（25~30℃）、暴风雨后易流行；病菌在种子、病残体与土壤中越冬，雨水飞溅是主要侵染方式。",
+      "transmission": "雨水飞溅、灌溉水与农事操作传播；带菌种子、病苗可远距离传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "噻唑锌",
+          "formulation": "30% 悬浮剂",
+          "dosage": "每亩 60~80 mL，兑水 30~45 kg",
+          "usage": "发病初期喷施，间隔 7~10 天，连喷 2~3 次；雨后补喷",
+          "precautions": "采收前 7 天停用；与氢氧化铜轮换使用",
+          "expected_effect": "病斑停止扩展，新叶无病斑，果实疮痂不再增加",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后新叶无新病斑，病斑边缘变干",
+          "fallback": "改用氢氧化铜或中生菌素补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "种子消毒与病残清除",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "播前用 52~55℃ 温汤浸种 15 分钟或药剂拌种；及时摘除病叶病果，收获后清除病残体",
+          "precautions": "温汤浸种需严格控制温度与时间",
+          "expected_effect": "减少初侵染菌源，降低苗期发病",
+          "effect_time": "当季见效",
+          "judgement": "苗期与田间早期病株明显减少",
+          "fallback": "结合药剂防治与非茄科轮作"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培防病",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "与非茄科作物轮作 2~3 年；地膜覆盖减少雨水飞溅；合理密植通风；增施钾肥；避免傍晚灌水",
+          "precautions": "避免大水漫灌",
+          "expected_effect": "田间湿度降低，发病减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "雨季病斑发生率下降",
+          "fallback": "结合药剂防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Pepper,_bell___healthy",
+      "name_cn": "辣椒健康叶片",
+      "name_en": "Pepper, bell healthy",
+      "healthy": true,
+      "symptoms": "叶片浓绿平展、有光泽，无病斑与穿孔，植株生长整齐。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用无病种子并消毒；轮作倒茬；平衡施肥；地膜覆盖；合理灌溉与通风",
+          "precautions": "避免高温高湿与密植郁闭",
+          "expected_effect": "植株健壮，预防细菌性与真菌性病害",
+          "effect_time": "持续管理",
+          "judgement": "叶片持续浓绿，无病斑与萎蔫",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    }
+  ]
+}

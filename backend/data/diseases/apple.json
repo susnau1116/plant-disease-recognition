@@ -1,0 +1,170 @@
+{
+  "crop": "苹果",
+  "crop_en": "Apple",
+  "diseases": [
+    {
+      "class_name": "Apple___Apple_scab",
+      "name_cn": "苹果黑星病（疮痂病）",
+      "name_en": "Apple scab",
+      "healthy": false,
+      "symptoms": "叶片正面初生橄榄绿色近圆形病斑，后变黑褐色并放射状扩展，表面有黑色霉层；后期病斑木栓化、龟裂，叶片扭曲、易早落。果实受害形成黑色疮痂状病斑，果面龟裂、畸形。",
+      "occurrence": "春季温暖多雨、湿度大（17~24℃）时易流行；病菌以菌丝在病落叶和病枝越冬，春季释放孢子侵染嫩叶嫩果，果园郁闭、通风差时发病重。",
+      "transmission": "主要随风雨飞溅传播（子囊孢子、分生孢子），也可随苗木、接穗远距离传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "苯醚甲环唑",
+          "formulation": "10% 水分散粒剂",
+          "dosage": "每亩 30~40 g，兑水 30~45 kg",
+          "usage": "发病初期开始喷施，间隔 10~14 天，连喷 2~3 次；雨后及时补喷",
+          "precautions": "采收前 14 天停止用药；避免高温时段施药；与代森锰锌等轮换使用，延缓抗性",
+          "expected_effect": "病斑停止扩展，边缘干枯变褐，新叶无黑霉层",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后新叶无病斑，落叶明显减少",
+          "fallback": "更换药剂（如代森锰锌）补喷，或通过专家咨询模块留言"
+        },
+        {
+          "type": "物理防治",
+          "name": "清园与病枝剪除",
+          "formulation": "—",
+          "dosage": "全园清理 1 次/年（落叶后）",
+          "usage": "秋末清扫落叶、剪除病枝和病果，集中烧毁或深埋；生长期及时摘除早期病叶",
+          "precautions": "工具使用前后消毒；清除物不可留在园内或堆肥",
+          "expected_effect": "大幅减少越冬菌源，翌春发病率明显下降",
+          "effect_time": "下一生长季显现",
+          "judgement": "次年春季新梢发病叶片明显减少",
+          "fallback": "病重果园连续 2~3 年清园，并结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "抗病栽培管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用抗病品种；合理密植与修剪，改善通风透光；增施有机肥、控氮平衡施肥；雨季及时排水",
+          "precautions": "避免大水漫灌；修剪后及时保护伤口",
+          "expected_effect": "树冠通风降湿，病害发生减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "雨季病斑扩展速度明显减缓",
+          "fallback": "结合农药与物理措施综合防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Apple___Black_rot",
+      "name_cn": "苹果黑腐病",
+      "name_en": "Apple black rot",
+      "healthy": false,
+      "symptoms": "叶片产生紫褐色、边缘清晰的圆形病斑（蛙眼斑），后期中央灰白并生小黑点；果实初为褐色圆形斑，逐渐扩大并呈同心轮纹状腐烂，最终干缩成黑色僵果。",
+      "occurrence": "高温高湿（25~28℃）有利于发病；病菌在僵果、病枝溃疡斑及落叶上越冬，果实近成熟期受害最重。",
+      "transmission": "风雨、气流传播孢子，也可由昆虫和修剪伤口侵染。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "代森锰锌",
+          "formulation": "80% 可湿性粉剂",
+          "dosage": "每亩 150~200 g，兑水 45~60 kg",
+          "usage": "谢花后开始喷施，间隔 10~14 天，连喷 3 次；果实膨大期视降雨加喷",
+          "precautions": "采收前 14 天停用；避免与碱性农药混用",
+          "expected_effect": "果实病斑不再扩大、无新增腐烂果",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后无新增病果，病斑边缘干缩",
+          "fallback": "改用吡唑醚菌酯或苯醚甲环唑补喷，并及时清除病果"
+        },
+        {
+          "type": "物理防治",
+          "name": "清除病果病枝",
+          "formulation": "—",
+          "dosage": "生长期随时进行",
+          "usage": "及时摘除病果、剪除病枝溃疡部分，集中销毁；冬季清园清除僵果与枯枝",
+          "precautions": "摘除后洗手/工具消毒，避免交叉污染",
+          "expected_effect": "减少菌源，阻断再侵染",
+          "effect_time": "立即见效，持续管理",
+          "judgement": "园内病果、僵果明显减少",
+          "fallback": "病重时结合药剂防治并连续清园 2 年"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培防病",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "加强修剪通风透光；及时防治虫害减少伤口；平衡施肥增强树势；避免果实过密",
+          "precautions": "伤口处可涂保护剂",
+          "expected_effect": "降低侵染机会，果实发病率下降",
+          "effect_time": "1 个生长季",
+          "judgement": "近成熟期烂果率明显降低",
+          "fallback": "结合套袋与药剂防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Apple___Cedar_apple_rust",
+      "name_cn": "苹果锈病（桧柏锈病）",
+      "name_en": "Cedar apple rust",
+      "healthy": false,
+      "symptoms": "叶片正面出现橙黄色圆形病斑，中央有黑色小点（性孢子器）；后期叶背对应处隆起并长出黄褐色毛状物（锈孢子器）。严重时叶片枯黄早落，果实、新梢也可受害。",
+      "occurrence": "春季多雨、气温 15~22℃时易流行；病菌需在桧柏（转主寄主）上越冬，苹果园附近有桧柏时发病重。",
+      "transmission": "春季风雨传播担孢子（自桧柏至苹果），秋季锈孢子再传回桧柏完成循环。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "戊唑醇",
+          "formulation": "43% 悬浮剂",
+          "dosage": "每亩 15~20 mL，兑水 45~60 kg",
+          "usage": "苹果萌芽后至展叶期开始喷施，间隔 10~14 天，连喷 2~3 次；雨后补喷",
+          "precautions": "采收前 21 天停用；花期避免施药",
+          "expected_effect": "病斑不再扩展，叶背锈孢子器减少、新叶无病斑",
+          "effect_time": "5~7 天",
+          "judgement": "10 天后新叶无橙黄色新病斑，叶背无新增毛状物",
+          "fallback": "改用三唑酮补喷，并清除园周桧柏"
+        },
+        {
+          "type": "物理防治",
+          "name": "铲除转主寄主",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "彻底砍除果园周边 5 km 内的桧柏，或于 3 月前剪除桧柏上的病瘿并销毁",
+          "precautions": "需与周边园主协商，统一行动",
+          "expected_effect": "切断病害循环，从根本上减轻发病",
+          "effect_time": "下一生长季显现",
+          "judgement": "翌年春季苹果园基本无新病斑",
+          "fallback": "无法铲除时，春季对桧柏喷药抑制冬孢子萌发"
+        },
+        {
+          "type": "农业防治",
+          "name": "品种与栽培管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用抗锈病品种；避免在桧柏附近建园；增施有机肥，增强树势；及时排水降湿",
+          "precautions": "—",
+          "expected_effect": "降低发病程度",
+          "effect_time": "1 个生长季",
+          "judgement": "新叶病斑率明显低于往年",
+          "fallback": "结合药剂防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Apple___healthy",
+      "name_cn": "苹果健康叶片",
+      "name_en": "Apple healthy",
+      "healthy": true,
+      "symptoms": "叶片浓绿、平整、无病斑与虫害痕迹，叶脉清晰，新梢生长正常。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "保持合理负载与通风透光；增施有机肥、平衡氮磷钾；雨季排水；冬季清园",
+          "precautions": "避免偏施氮肥造成徒长",
+          "expected_effect": "保持树体健壮，预防病害发生",
+          "effect_time": "持续管理",
+          "judgement": "叶片持续浓绿、无病斑，树势旺盛",
+          "fallback": "发现早期病斑及时按对应病害处理"
+        }
+      ]
+    }
+  ]
+}

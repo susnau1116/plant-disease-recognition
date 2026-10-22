@@ -1,0 +1,76 @@
+{
+  "crop": "桃",
+  "crop_en": "Peach",
+  "diseases": [
+    {
+      "class_name": "Peach___Bacterial_spot",
+      "name_cn": "桃细菌性穿孔病",
+      "name_en": "Peach bacterial spot",
+      "healthy": false,
+      "symptoms": "叶片初生水渍状黄绿色小斑，后变紫褐色至黑褐色，病斑周围有黄晕，中央干枯易脱落形成穿孔；果实与新梢出现褐色水渍状凹陷斑，严重时龟裂。",
+      "occurrence": "温暖多雨、风大天气易流行（20~30℃）；细菌在病枝溃疡斑与病芽内越冬，春季随风雨传播侵染。",
+      "transmission": "风雨飞溅、昆虫及农事操作传播；苗木、接穗可远距离带菌。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "噻唑锌",
+          "formulation": "30% 悬浮剂",
+          "dosage": "每亩 80~100 mL，兑水 45~60 kg",
+          "usage": "展叶后发病初期开始喷施，间隔 10~14 天，连喷 2~3 次；暴风雨后及时补喷",
+          "precautions": "采收前 14 天停用；避免与强酸强碱性药剂混用",
+          "expected_effect": "新发病斑停止扩展，穿孔不再增加",
+          "effect_time": "5~7 天",
+          "judgement": "7~10 天后新叶无新病斑，病斑边缘干枯",
+          "fallback": "改用氢氧化铜或中生菌素补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "剪除病枝与清园",
+          "formulation": "—",
+          "dosage": "休眠期 1 次 + 生长期随时",
+          "usage": "冬季修剪清除病枝、病梢并烧毁；生长期摘除严重病叶与病果",
+          "precautions": "修剪工具消毒；清园后全园喷石硫合剂",
+          "expected_effect": "越冬菌源显著减少",
+          "effect_time": "下一生长季显现",
+          "judgement": "翌年春季病叶率明显下降",
+          "fallback": "病重园连续 2 年强化清园"
+        },
+        {
+          "type": "农业防治",
+          "name": "避风栽培与树势管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选择避风园地或营造防风林；增施有机肥、控氮增钾；雨季排水；及时防治蚜虫等害虫",
+          "precautions": "避免密植郁闭",
+          "expected_effect": "降低风雨传播与侵染几率",
+          "effect_time": "1 个生长季",
+          "judgement": "雨季新病斑发生率下降",
+          "fallback": "结合药剂与修剪防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Peach___healthy",
+      "name_cn": "桃健康叶片",
+      "name_en": "Peach healthy",
+      "healthy": true,
+      "symptoms": "叶片狭长、浓绿、平展，无穿孔与病斑，叶缘完整，新梢生长正常。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "合理修剪通风透光；平衡施肥；雨季排水；营造防风林；冬季清园",
+          "precautions": "及时防治虫害减少伤口",
+          "expected_effect": "树势健壮，预防细菌性穿孔病等发生",
+          "effect_time": "持续管理",
+          "judgement": "叶片浓绿完整，无穿孔与病斑",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    }
+  ]
+}

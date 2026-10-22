@@ -1,0 +1,76 @@
+{
+  "crop": "草莓",
+  "crop_en": "Strawberry",
+  "diseases": [
+    {
+      "class_name": "Strawberry___Leaf_scorch",
+      "name_cn": "草莓叶焦病（蛇眼病）",
+      "name_en": "Strawberry leaf scorch",
+      "healthy": false,
+      "symptoms": "叶片初生紫红色小斑点，后扩大为圆形或椭圆形病斑，中央灰白、边缘紫红（蛇眼状），病斑密集时叶片大面积焦枯，叶缘上卷。",
+      "occurrence": "高温高湿、多雨或大水漫灌后易流行；病残体与带病苗越冬，密植郁闭田块发病重。",
+      "transmission": "雨水飞溅、灌溉水与农事操作传播孢子；带病苗可传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "苯醚甲环唑",
+          "formulation": "10% 水分散粒剂",
+          "dosage": "每亩 20~30 g，兑水 30~45 kg",
+          "usage": "发病初期喷施，间隔 7~10 天，连喷 2~3 次；重点喷施叶背",
+          "precautions": "采收期慎用，注意安全间隔期（采果前 7 天停用）",
+          "expected_effect": "新病斑停止产生，已有病斑边缘干枯，叶片保持绿色",
+          "effect_time": "3~5 天",
+          "judgement": "5~7 天后新叶无新病斑，病斑不再扩大",
+          "fallback": "改用代森锰锌或吡唑醚菌酯补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "摘除病叶与清园",
+          "formulation": "—",
+          "dosage": "生长期随时进行",
+          "usage": "及时摘除老叶病叶，带出园外销毁；采果后彻底清园，移除病残体",
+          "precautions": "操作选晴天进行，工具消毒",
+          "expected_effect": "减少菌源，改善通风",
+          "effect_time": "3~5 天",
+          "judgement": "园内病叶率明显下降",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "使用无病苗；高垄栽培与滴灌（避免叶面浇水）；合理密植；增施有机肥与钾肥；雨后排水",
+          "precautions": "避免大水漫灌和田间积水",
+          "expected_effect": "田间湿度降低，发病减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "雨季新病斑发生率下降",
+          "fallback": "结合药剂与品种更新"
+        }
+      ]
+    },
+    {
+      "class_name": "Strawberry___healthy",
+      "name_cn": "草莓健康叶片",
+      "name_en": "Strawberry healthy",
+      "healthy": true,
+      "symptoms": "叶片浓绿有光泽、三出复叶完整，无病斑与焦枯，植株紧凑生长正常。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "使用脱毒无病苗；高垄滴灌；及时摘除老叶病叶；平衡施肥；通风降湿；冬季清园",
+          "precautions": "避免密植与叶面灌溉",
+          "expected_effect": "植株健壮，预防叶焦病、白粉病等发生",
+          "effect_time": "持续管理",
+          "judgement": "叶片浓绿、无病斑，植株生长旺盛",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    }
+  ]
+}

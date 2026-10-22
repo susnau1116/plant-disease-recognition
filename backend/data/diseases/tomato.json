@@ -1,0 +1,452 @@
+{
+  "crop": "番茄",
+  "crop_en": "Tomato",
+  "diseases": [
+    {
+      "class_name": "Tomato___Bacterial_spot",
+      "name_cn": "番茄细菌性斑点病",
+      "name_en": "Tomato bacterial spot",
+      "healthy": false,
+      "symptoms": "叶片初生水渍状黄绿色小斑，后变暗褐色近圆形病斑，周围有黄色晕圈，中央易穿孔；果实上形成褐色至黑色疮痂状凹陷斑。",
+      "occurrence": "高温高湿（25~30℃）、暴风雨后易流行；病菌在种子、病残体与土壤中越冬，雨水飞溅为主要侵染途径。",
+      "transmission": "雨水飞溅、灌溉水与农事操作传播；带菌种子可远距离传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "噻唑锌",
+          "formulation": "30% 悬浮剂",
+          "dosage": "每亩 60~80 mL，兑水 30~45 kg",
+          "usage": "发病初期喷施，间隔 7~10 天，连喷 2~3 次；雨后补喷",
+          "precautions": "采收前 7 天停用；与氢氧化铜轮换",
+          "expected_effect": "病斑停止扩展，新叶无病斑，果实疮痂不再增加",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后新叶无新病斑，病斑边缘干缩",
+          "fallback": "改用氢氧化铜或中生菌素补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "种子消毒与病残清除",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "播前 52~55℃ 温汤浸种 15 分钟；及时摘除病叶病果，收获后清除病残体",
+          "precautions": "温汤浸种严格控制温度与时间",
+          "expected_effect": "减少初侵染菌源",
+          "effect_time": "当季见效",
+          "judgement": "田间早期病株率明显下降",
+          "fallback": "结合轮作与药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培防病",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "与非茄科作物轮作 2~3 年；地膜覆盖减少雨水飞溅；合理密植通风；增施钾肥",
+          "precautions": "避免大水漫灌与傍晚浇水",
+          "expected_effect": "田间湿度降低，发病减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "雨季病斑发生率下降",
+          "fallback": "结合药剂防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___Early_blight",
+      "name_cn": "番茄早疫病（轮纹病）",
+      "name_en": "Tomato early blight",
+      "healthy": false,
+      "symptoms": "下部老叶初生褐色小斑，扩大后呈同心轮纹（靶心状），周围有黄晕；茎部与果实也可形成褐色凹陷病斑，严重时植株下部叶片枯死脱落。",
+      "occurrence": "温暖高湿（24~28℃）易发，结果初期开始流行；病残体与种子带菌越冬，营养不足、植株衰弱时发病重。",
+      "transmission": "风雨、气流传播分生孢子；带菌种子与病残体是初侵染源。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "嘧菌酯",
+          "formulation": "25% 悬浮剂",
+          "dosage": "每亩 40~60 mL，兑水 30~45 kg",
+          "usage": "发病初期喷施，间隔 7~10 天，连喷 2~3 次；重点喷施中下部叶片",
+          "precautions": "采收前 7 天停用；与苯醚甲环唑轮换",
+          "expected_effect": "病斑停止扩展，新叶无轮纹斑，下部叶片保持绿色",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后新叶无新病斑，病斑边缘干枯",
+          "fallback": "改用苯醚甲环唑或代森锰锌补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "摘除病叶与清园",
+          "formulation": "—",
+          "dosage": "生长期随时进行",
+          "usage": "及时摘除下部病叶、病果并销毁；收获后清除病残体，深翻晒垡",
+          "precautions": "摘除后用肥皂水洗手，防止人为传播",
+          "expected_effect": "减少菌源，延缓发病",
+          "effect_time": "3~5 天",
+          "judgement": "下部病叶率明显下降",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "壮苗栽培",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "轮作 2~3 年；平衡施肥、增施钾肥；合理灌溉避免忽干忽湿；及时整枝打杈通风",
+          "precautions": "避免植株后期脱肥早衰",
+          "expected_effect": "植株健壮，发病减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "中后期病株率下降",
+          "fallback": "结合药剂与轮作防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___Late_blight",
+      "name_cn": "番茄晚疫病",
+      "name_en": "Tomato late blight",
+      "healthy": false,
+      "symptoms": "叶尖叶缘初生水渍状暗绿色病斑，迅速扩大为褐色大斑，湿度大时叶背病健交界处产生白色霉层；茎秆黑褐色腐烂，果实出现褐色水渍状硬斑，后腐烂。",
+      "occurrence": "低温高湿（18~22℃、多雨多雾）极易流行，传播极快；病菌在病残体、带病种薯（马铃薯）与土壤中越冬。",
+      "transmission": "气流远距离传播孢子囊；雨水、灌溉水传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "烯酰吗啉",
+          "formulation": "50% 水分散粒剂",
+          "dosage": "每亩 30~40 g，兑水 30~45 kg",
+          "usage": "连阴雨前预防或发病初期开始喷施，间隔 7 天，连喷 2~3 次；发现中心病株立即全田施药",
+          "precautions": "采收前 14 天停用；与霜脲·锰锌、氟啶胺轮换",
+          "expected_effect": "病斑停止扩展，叶背白霉层消失，无新增水渍状斑",
+          "effect_time": "3~5 天",
+          "judgement": "5 天内无新增水渍状病斑，新叶正常",
+          "fallback": "改用氟啶胺或霜脲·锰锌补喷，并及时清除病株"
+        },
+        {
+          "type": "物理防治",
+          "name": "拔除中心病株与除湿",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "发现中心病株连根拔除带出田外销毁，病穴撒石灰；棚室及时通风排湿、避免叶面结露",
+          "precautions": "拔除前先喷药防止孢子飞散",
+          "expected_effect": "阻断扩散，降低棚内湿度",
+          "effect_time": "立即见效",
+          "judgement": "周边植株无新增病斑",
+          "fallback": "全田施药并缩短用药间隔"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培防病",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "避免与马铃薯邻作；轮作 2~3 年；合理密植；地膜覆盖与滴灌；及时整枝",
+          "precautions": "避免傍晚灌溉造成夜间高湿",
+          "expected_effect": "田间湿度降低，初侵染减少",
+          "effect_time": "1 个生长季",
+          "judgement": "雨季发病速度减缓",
+          "fallback": "结合药剂与品种调整"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___Leaf_Mold",
+      "name_cn": "番茄叶霉病",
+      "name_en": "Tomato leaf mold",
+      "healthy": false,
+      "symptoms": "叶片正面出现淡黄色边界不清的褪绿斑，叶背对应处初生灰白色后变黄褐色至黑褐色绒状霉层；叶片由下向上卷曲干枯，果实上形成黑褐色硬化斑。",
+      "occurrence": "棚室高湿（相对湿度 >85%）、温度 20~25℃ 且通风不良时易流行；病菌在病残体、种子及棚室骨架上越冬。",
+      "transmission": "气流、农事操作与种子传播孢子。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "氟硅唑",
+          "formulation": "10% 乳油",
+          "dosage": "每亩 30~40 mL，兑水 30~45 kg",
+          "usage": "发病初期喷施，间隔 7~10 天，连喷 2~3 次，重点喷施叶背",
+          "precautions": "采收前 7 天停用；棚室可结合烟雾剂使用",
+          "expected_effect": "叶背霉层变干消退，新叶无病斑",
+          "effect_time": "3~5 天",
+          "judgement": "5~7 天后新叶无霉层，病叶不再扩展",
+          "fallback": "改用嘧菌酯或腐霉利补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "降湿与摘除病叶",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "棚室加强通风、控制浇水、避免叶面结露；及时摘除下部病叶并销毁",
+          "precautions": "浇水后及时排湿",
+          "expected_effect": "破坏病菌流行条件",
+          "effect_time": "3~5 天",
+          "judgement": "棚内湿度下降、结露消失",
+          "fallback": "结合烟雾剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用抗病品种；种子消毒；合理密植与整枝；滴灌控湿；轮作 2 年",
+          "precautions": "避免密植郁闭",
+          "expected_effect": "发病显著减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "叶霉病株率下降",
+          "fallback": "结合药剂防治与棚室消毒"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___Septoria_leaf_spot",
+      "name_cn": "番茄斑枯病（白星病）",
+      "name_en": "Tomato Septoria leaf spot",
+      "healthy": false,
+      "symptoms": "下部老叶初生水渍状小圆斑，后扩大为圆形病斑，中央灰白凹陷、边缘深褐色并散生黑色小点（分生孢子器），形似\"白星\"；严重时叶片枯黄脱落。",
+      "occurrence": "温暖潮湿（20~25℃、多雨多露）易流行；病残体与种子带菌越冬，先由下部叶片发病再向上蔓延。",
+      "transmission": "雨水飞溅、气流与农事操作传播分生孢子。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "代森锰锌",
+          "formulation": "80% 可湿性粉剂",
+          "dosage": "每亩 150~200 g，兑水 45~60 kg",
+          "usage": "发病初期喷施，间隔 7~10 天，连喷 2~3 次；重点喷施中下部叶片",
+          "precautions": "采收前 7 天停用；避免与碱性农药混用",
+          "expected_effect": "新病斑停止产生，已有病斑干燥变褐，叶片不再枯落",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后新叶无新病斑，落叶明显减少",
+          "fallback": "改用苯醚甲环唑或嘧菌酯补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "摘除病叶与清园",
+          "formulation": "—",
+          "dosage": "生长期随时进行",
+          "usage": "及时摘除下部病叶并销毁；收获后彻底清除病残体、深翻土壤",
+          "precautions": "操作后工具与手部清洁",
+          "expected_effect": "减少菌源，延缓向上蔓延",
+          "effect_time": "3~5 天",
+          "judgement": "下部病叶率明显下降",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培防病",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "轮作 2~3 年；地膜覆盖减少雨水飞溅；合理灌溉；及时整枝保持通风",
+          "precautions": "避免叶面浇水与大水漫灌",
+          "expected_effect": "田间湿度降低，发病减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "雨季病斑发生率下降",
+          "fallback": "结合药剂防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___Target_Spot",
+      "name_cn": "番茄靶斑病",
+      "name_en": "Tomato target spot",
+      "healthy": false,
+      "symptoms": "叶片初生淡褐色小斑，扩大后呈圆形至不规则形，病斑有同心轮纹（靶心状），边缘黄色；严重时叶片枯黄脱落，果实上形成褐色凹陷斑。",
+      "occurrence": "高温高湿（25~30℃、多雨）易流行；病菌在病残体越冬，植株生长中后期郁闭时发病重。",
+      "transmission": "风雨、气流传播孢子。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "吡唑醚菌酯",
+          "formulation": "25% 悬浮剂",
+          "dosage": "每亩 30~40 mL，兑水 30~45 kg",
+          "usage": "发病初期喷施，间隔 7~10 天，连喷 2~3 次",
+          "precautions": "采收前 7 天停用；与苯醚甲环唑轮换",
+          "expected_effect": "病斑停止扩展，新叶无轮纹斑",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后新叶无新病斑，病斑边缘干缩",
+          "fallback": "改用嘧菌酯或氟硅唑补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "摘除病叶与通风",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "摘除中下部病叶并销毁；整枝打杈、疏叶通风透光",
+          "precautions": "摘除物带出田外",
+          "expected_effect": "降低田间湿度与菌源",
+          "effect_time": "3~5 天",
+          "judgement": "病叶率下降，通风改善",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培防病",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "轮作 2 年；平衡施肥；地膜覆盖；合理密植；雨后排涝",
+          "precautions": "—",
+          "expected_effect": "发病减轻",
+          "effect_time": "1 个生长季",
+          "judgement": "中后期病斑发生率下降",
+          "fallback": "结合药剂防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "name_cn": "番茄二斑叶螨（红蜘蛛）为害",
+      "name_en": "Tomato spider mites (two-spotted spider mite)",
+      "healthy": false,
+      "symptoms": "叶片出现密集失绿小黄点，后叶片灰黄、干枯；叶背可见细小螨体与丝网，严重时叶片焦枯脱落；植株长势衰弱。",
+      "occurrence": "高温干燥（28~32℃、湿度低）繁殖极快，干旱年份与棚室环境易暴发；杂草与老叶是主要栖息地。",
+      "transmission": "自身爬行、风力和农事操作携带传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "螺螨酯",
+          "formulation": "240 g/L 悬浮剂",
+          "dosage": "每亩 10~15 mL，兑水 45~60 kg",
+          "usage": "点片发生期喷施，间隔 10~14 天，重点喷施叶背；与阿维菌素轮换",
+          "precautions": "采收前 7 天停用；卵多时需连喷 2 次；注意保护天敌",
+          "expected_effect": "螨口密度大幅下降，新叶不再出现失绿斑点",
+          "effect_time": "3~5 天",
+          "judgement": "施药后 5 天叶背螨体与丝网明显减少，新叶正常",
+          "fallback": "改用阿维菌素或联苯肼酯补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "清除虫叶与冲水",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "及时摘除严重虫叶并销毁；用高压水冲洗衣背降低虫口；清除田间杂草",
+          "precautions": "冲水选清晨进行，避免高温伤苗",
+          "expected_effect": "虫口密度下降，延缓扩散",
+          "effect_time": "1~3 天",
+          "judgement": "叶背螨体明显减少",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "环境调控",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "合理灌溉提高田间湿度；增施有机肥增强树势；保护瓢虫、捕食螨等天敌",
+          "precautions": "避免过度干旱与偏施氮肥",
+          "expected_effect": "抑制叶螨繁殖，减少暴发",
+          "effect_time": "持续管理",
+          "judgement": "园内叶螨密度稳定在低水平",
+          "fallback": "结合药剂与天敌释放"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___Tomato_mosaic_virus",
+      "name_cn": "番茄花叶病毒病",
+      "name_en": "Tomato mosaic virus",
+      "healthy": false,
+      "symptoms": "叶片出现黄绿相间的花叶斑驳、皱缩畸形，新叶变窄呈蕨叶状；植株矮化，果实畸形、着色不均。病毒病无治愈药剂，重在预防。",
+      "occurrence": "高温干旱、蚜虫多发季节易流行；病毒可在种子、病残体、土壤及多年生寄主上越冬。",
+      "transmission": "蚜虫等刺吸式害虫传播；汁液摩擦（农事操作）与带毒种子也可传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "吡虫啉（防蚜虫、切断传播）",
+          "formulation": "10% 可湿性粉剂",
+          "dosage": "每亩 20~30 g，兑水 30~45 kg",
+          "usage": "蚜虫发生期喷施，间隔 7~10 天；发病初期可辅以氨基寡糖素等免疫诱抗剂",
+          "precautions": "防虫药剂不治病毒本身；采收前 7 天停用",
+          "expected_effect": "蚜虫密度下降，新发感染减少",
+          "effect_time": "7~10 天",
+          "judgement": "田间蚜虫数量明显减少，新叶不再出现花叶",
+          "fallback": "补喷噻虫嗪，并拔除重症病株"
+        },
+        {
+          "type": "物理防治",
+          "name": "拔除病株与消毒",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "及时拔除初发重症病株带出田外销毁；工具与手用 10% 磷酸三钠溶液消毒；种子 10% 磷酸三钠浸种 20 分钟",
+          "precautions": "接触病株后必须先消毒再接触健株",
+          "expected_effect": "减少毒源，防止人为扩散",
+          "effect_time": "立即见效",
+          "judgement": "新发病株不再增加",
+          "fallback": "结合防虫与抗病毒品种"
+        },
+        {
+          "type": "农业防治",
+          "name": "阻断传毒",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用抗病品种与无毒种子；银灰色地膜避蚜；防虫网覆盖；轮作 2~3 年",
+          "precautions": "避免与茄科作物邻作",
+          "expected_effect": "传毒媒介减少，发病率下降",
+          "effect_time": "1 个生长季",
+          "judgement": "花叶病发生率明显低于往年",
+          "fallback": "结合防虫网与药剂防蚜"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "name_cn": "番茄黄化曲叶病毒病",
+      "name_en": "Tomato yellow leaf curl virus",
+      "healthy": false,
+      "symptoms": "新叶变小、边缘上卷，叶色黄化（叶脉间黄化明显），植株矮化丛生；开花结果少，果实小而畸形。病毒病无治愈药剂，重在预防。",
+      "occurrence": "由烟粉虱传播，夏秋高温季节（28℃ 以上）烟粉虱活跃时暴发；带毒苗与传毒媒介是主要侵染源。",
+      "transmission": "主要经烟粉虱叮咬传播；带毒苗可远距离传播。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "噻虫嗪（防烟粉虱、切断传播）",
+          "formulation": "25% 水分散粒剂",
+          "dosage": "每亩 8~12 g，兑水 30~45 kg",
+          "usage": "育苗期与定植后防治烟粉虱，间隔 7~10 天；棚室可结合黄板监测施药",
+          "precautions": "药剂不治病毒本身；采收前 7 天停用；与吡丙醚轮换",
+          "expected_effect": "烟粉虱密度大幅下降，新发感染减缓",
+          "effect_time": "7~14 天",
+          "judgement": "黄板上烟粉虱数量明显减少，新叶不再黄化卷曲",
+          "fallback": "补喷螺虫乙酯，并及时拔除重症病株"
+        },
+        {
+          "type": "物理防治",
+          "name": "防虫网与黄板诱杀",
+          "formulation": "—",
+          "dosage": "防虫网 60 目；黄板 20~30 张/亩",
+          "usage": "棚室通风口覆盖防虫网；田间悬挂黄板诱杀烟粉虱，定期更换",
+          "precautions": "黄板随虫量及时更换，保持离植株顶部 15~20 cm",
+          "expected_effect": "物理阻隔与诱杀传毒媒介",
+          "effect_time": "持续管理",
+          "judgement": "棚内烟粉虱密度显著下降",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "健康育苗与品种选择",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用抗 TYLCV 品种；使用无虫无病苗；及时清除田边杂草与残株；避免与烟粉虱喜食作物邻作",
+          "precautions": "育苗棚与生产棚隔离",
+          "expected_effect": "初侵染源减少，发病率下降",
+          "effect_time": "1 个生长季",
+          "judgement": "定植后黄化曲叶病株率明显下降",
+          "fallback": "结合防虫网与药剂治虫"
+        }
+      ]
+    },
+    {
+      "class_name": "Tomato___healthy",
+      "name_cn": "番茄健康叶片",
+      "name_en": "Tomato healthy",
+      "healthy": true,
+      "symptoms": "叶片浓绿平展，叶脉清晰，无病斑、霉层与虫害痕迹，植株生长正常。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用抗病品种与无毒种子；轮作倒茬；平衡施肥；地膜覆盖与滴灌；及时整枝通风；防虫网防虱防蚜",
+          "precautions": "避免高温高湿郁闭与偏施氮肥",
+          "expected_effect": "植株健壮，预防早疫、晚疫、叶霉与病毒病",
+          "effect_time": "持续管理",
+          "judgement": "叶片浓绿无病斑，开花结果正常",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    }
+  ]
+}

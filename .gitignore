@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 训练产物与大数据文件（不入库）
+PlantVillage/
+model/checkpoints/
+model/features/
+model/logs/
+model/onnx_models/
+model/data/splits/
+backend/models/*.onnx
+backend/database/
+backend/logs/
+*.pth
+*.onnx
+*.npz
+*.db
+*.apk
+
+# Node
+node_modules/
+dist/
+unpackage/
+.vite/
+npm-debug.log*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地配置
+.env
+.env.local

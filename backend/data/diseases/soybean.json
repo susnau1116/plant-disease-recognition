@@ -1,0 +1,29 @@
+{
+  "crop": "大豆",
+  "crop_en": "Soybean",
+  "diseases": [
+    {
+      "class_name": "Soybean___healthy",
+      "name_cn": "大豆健康叶片",
+      "name_en": "Soybean healthy",
+      "healthy": true,
+      "symptoms": "叶片浓绿、三出复叶平展完整，无病斑、锈斑与虫食痕迹，植株长势整齐。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选用抗病品种与包衣种子；合理轮作；平衡施肥；适度密植；及时排灌；防治蚜虫等传毒媒介",
+          "precautions": "避免连作与田间积水",
+          "expected_effect": "植株健壮，预防锈病、霜霉病与病毒病",
+          "effect_time": "持续管理",
+          "judgement": "叶片浓绿无病斑，长势整齐",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    }
+  ]
+}

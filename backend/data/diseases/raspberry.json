@@ -1,0 +1,29 @@
+{
+  "crop": "树莓",
+  "crop_en": "Raspberry",
+  "diseases": [
+    {
+      "class_name": "Raspberry___healthy",
+      "name_cn": "树莓健康叶片",
+      "name_en": "Raspberry healthy",
+      "healthy": true,
+      "symptoms": "叶片浅绿至浓绿，叶背灰白，无病斑、黄化与虫害痕迹，枝条生长正常。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "选择排水良好地块与抗病品种；立架绑蔓保持通风；每年疏除老枝病枝；覆盖稻草保湿抑草；合理滴灌",
+          "precautions": "避免积水与枝条过密",
+          "expected_effect": "植株健壮，预防灰霉病、锈病等发生",
+          "effect_time": "持续管理",
+          "judgement": "叶片浓绿、无病斑，结果枝生长旺盛",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    }
+  ]
+}

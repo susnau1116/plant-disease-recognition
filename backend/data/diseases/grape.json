@@ -1,0 +1,170 @@
+{
+  "crop": "葡萄",
+  "crop_en": "Grape",
+  "diseases": [
+    {
+      "class_name": "Grape___Black_rot",
+      "name_cn": "葡萄黑腐病",
+      "name_en": "Grape black rot",
+      "healthy": false,
+      "symptoms": "叶片初生红褐色小斑，扩大为近圆形病斑，中央灰白、边缘褐色并生小黑点；果实受害变褐软腐，后干缩成黑色僵果悬挂枝头。",
+      "occurrence": "高温高湿（25~30℃）、多雨季节易流行；病菌在僵果、病叶和枝蔓溃疡处越冬，坐果后至成熟期均可受害。",
+      "transmission": "风雨、气流传播孢子，昆虫与农事操作也可带菌。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "代森锰锌",
+          "formulation": "80% 可湿性粉剂",
+          "dosage": "每亩 150~200 g，兑水 45~60 kg",
+          "usage": "花前与花后各喷 1 次，间隔 10~14 天，连喷 3 次；雨季加喷",
+          "precautions": "采收前 14 天停用；避免与碱性农药混用",
+          "expected_effect": "病斑停止扩展，果实无新增腐烂，病斑干缩",
+          "effect_time": "3~7 天",
+          "judgement": "7 天后无新增病果，果穗保持干燥",
+          "fallback": "改用吡唑醚菌酯或苯醚甲环唑，并及时摘除病果"
+        },
+        {
+          "type": "物理防治",
+          "name": "清除病果病叶",
+          "formulation": "—",
+          "dosage": "生长期随时进行",
+          "usage": "及时摘除病果、病叶与僵果，集中深埋或销毁；冬季彻底清园",
+          "precautions": "操作工具消毒，避免人为传播",
+          "expected_effect": "显著减少菌源，阻断再侵染",
+          "effect_time": "立即见效，持续管理",
+          "judgement": "园内病果与僵果基本清除",
+          "fallback": "病重园区连续清园 2~3 年并结合药剂"
+        },
+        {
+          "type": "农业防治",
+          "name": "栽培管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "及时摘心、绑蔓、去副梢，保持架面通风透光；增施有机肥与钾肥；雨季排水；果实套袋",
+          "precautions": "避免偏施氮肥造成郁闭",
+          "expected_effect": "降低田间湿度，减少侵染",
+          "effect_time": "1 个生长季",
+          "judgement": "成熟期烂果率明显降低",
+          "fallback": "结合药剂与套袋防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Grape___Esca_(Black_Measles)",
+      "name_cn": "葡萄埃斯卡病（黑麻疹/顶枯病）",
+      "name_en": "Grape esca (Black measles)",
+      "healthy": false,
+      "symptoms": "叶片脉间出现不规则褪绿黄斑，迅速变为焦褐色坏死（\"虎斑\"），叶缘干枯；果粒表面出现黑色小点，后期整株突然萎蔫枯死（急性顶枯）。",
+      "occurrence": "老园、修剪伤口多、树势弱的园区发病重；真菌经伤口侵入木质部，随树龄增长逐年加重。",
+      "transmission": "主要通过修剪、嫁接伤口和机械损伤侵入，病菌在木质部内逐年扩展。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "甲基硫菌灵（保护伤口）",
+          "formulation": "70% 可湿性粉剂",
+          "dosage": "按 1:100 兑水配成糊剂",
+          "usage": "修剪、嫁接后立即用糊剂涂抹较大伤口；生长季可用同药剂 800 倍液喷施枝蔓",
+          "precautions": "无根治性药剂，重点在伤口保护；采收前 14 天停用",
+          "expected_effect": "减缓病害扩展速度，减少新发植株",
+          "effect_time": "1~2 个生长季",
+          "judgement": "新修剪伤口不再出现木质部变色；急性萎蔫株减少",
+          "fallback": "重病株拔除并销毁，土壤消毒后补植"
+        },
+        {
+          "type": "物理防治",
+          "name": "病株清除与工具消毒",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "及时拔除急性萎蔫病株并烧毁；修剪工具在株间用酒精或次氯酸钠溶液消毒",
+          "precautions": "拔除时尽量挖除大根，避免残留病组织",
+          "expected_effect": "防止病菌在园内扩散",
+          "effect_time": "立即见效",
+          "judgement": "相邻健株不再出现新发黄斑与急性枯死",
+          "fallback": "对邻近看似健康植株推迟修剪并单独使用工具"
+        },
+        {
+          "type": "农业防治",
+          "name": "树势与修剪管理",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "延迟修剪至萌芽后（伤口愈合快）；避免大伤口；增施有机肥增强树势；合理负载",
+          "precautions": "避免雨季修剪；忌大水漫灌",
+          "expected_effect": "降低侵染几率，延缓发病进程",
+          "effect_time": "长期管理",
+          "judgement": "树势增强、新发病株率下降",
+          "fallback": "结合伤口保护与病株清除"
+        }
+      ]
+    },
+    {
+      "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "name_cn": "葡萄叶枯病（拟棒束孢叶斑病）",
+      "name_en": "Grape leaf blight (Isariopsis leaf spot)",
+      "healthy": false,
+      "symptoms": "叶片初生暗褐色多角形小斑，后扩展为不规则褐色大斑，病健交界明显，后期病斑中央灰褐色并产生暗色霉层，叶片干枯脱落。",
+      "occurrence": "温暖潮湿、多雨季节易发；病菌在病残体越冬，生长中后期发病较重。",
+      "transmission": "风雨传播分生孢子。",
+      "treatments": [
+        {
+          "type": "农药防治",
+          "name": "苯醚甲环唑",
+          "formulation": "10% 水分散粒剂",
+          "dosage": "每亩 30~40 g，兑水 45~60 kg",
+          "usage": "发病初期喷施，间隔 10~14 天，连喷 2~3 次；重点喷施叶片正反面",
+          "precautions": "采收前 14 天停用",
+          "expected_effect": "病斑停止扩展，新叶无病斑",
+          "effect_time": "5~7 天",
+          "judgement": "7 天后新叶无褐色新斑，病斑边缘干缩",
+          "fallback": "改用代森锰锌或吡唑醚菌酯补喷"
+        },
+        {
+          "type": "物理防治",
+          "name": "清除病叶",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "及时摘除下部病叶并带出园外销毁；冬季清园清除落叶",
+          "precautions": "清除物不可随地丢弃",
+          "expected_effect": "减少菌源，改善通风",
+          "effect_time": "3~5 天",
+          "judgement": "下部病叶率下降",
+          "fallback": "结合药剂防治"
+        },
+        {
+          "type": "农业防治",
+          "name": "通风降湿",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "合理修剪去副梢，保持架面通风；增施钾肥；雨后排水",
+          "precautions": "—",
+          "expected_effect": "降低小气候湿度，减轻发病",
+          "effect_time": "1 个生长季",
+          "judgement": "叶部病斑率明显下降",
+          "fallback": "结合药剂防治"
+        }
+      ]
+    },
+    {
+      "class_name": "Grape___healthy",
+      "name_cn": "葡萄健康叶片",
+      "name_en": "Grape healthy",
+      "healthy": true,
+      "symptoms": "叶片平展、浓绿，叶脉清晰，无病斑、霉层或焦枯，新梢生长正常。",
+      "occurrence": "—",
+      "transmission": "—",
+      "treatments": [
+        {
+          "type": "农业防治",
+          "name": "健康栽培管理（预防）",
+          "formulation": "—",
+          "dosage": "—",
+          "usage": "合理修剪绑蔓保持通风透光；平衡施肥（增磷钾、控氮）；雨季排水；冬季清园",
+          "precautions": "修剪伤口及时保护",
+          "expected_effect": "树势健壮，预防黑腐病、叶枯病等发生",
+          "effect_time": "持续管理",
+          "judgement": "叶片浓绿、架面通风良好，无病斑",
+          "fallback": "发现早期病斑按对应病害处理"
+        }
+      ]
+    }
+  ]
+}
